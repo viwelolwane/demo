@@ -1,0 +1,25 @@
+.widget-olayers {
+    background-color: #808080;
+}
+
+.widget-olayers h1 {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.widget-olayers h2 {
+    color: #fff;
+}
+
+.widget-olayers .detail {
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+}
+
+.widget-olayers .more-info {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.widget-olayers .updated-at {
+    color: rgba(0, 0, 0, 0.5);
+}

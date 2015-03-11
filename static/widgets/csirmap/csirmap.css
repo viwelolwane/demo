@@ -1,0 +1,28 @@
+.widget-csirmap {
+    background-image: url("csirmap.jpg");
+    border: 3px solid #fbcb09;
+    min-width: 547px;
+    min-height: 826px;
+}
+
+.widget-csirmap h1 { 
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.widget-csirmap h2 {
+    color: #fff;
+}
+
+.widget-csirmap .detail {
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+}
+
+.widget-csirmap .more-info {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.widget-csirmap .updated-at {
+    color: rgba(0, 0, 0, 0.3);
+}

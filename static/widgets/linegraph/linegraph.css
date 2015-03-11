@@ -1,0 +1,58 @@
+.linegraph { 
+    background-color: #ff9618;;
+    position: relative;
+}
+
+.linegraph svg {
+    position: absolute;
+    opacity: 0.4;
+    fill-opacity: 0.4;
+    left: 0px;
+    top: 0px;
+}
+
+.linegraph h1, h2 {
+    position: relative;
+    z-index: 99;
+}
+
+.linegraph h1 { 
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.linegraph .more-info {
+    color: rgba(255, 255, 255, 0.3);
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.linegraph .x_tick {
+    position: absolute;
+    bottom: 0;
+}
+
+.linegraph .x_tick .title {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.4);
+    opacity: 0.5;
+    padding-bottom: 3px;
+}
+
+.linegraph .y_ticks {
+    font-size: 20px;
+    fill: rgba(0, 0, 0, 0.4);
+    fill-opacity: 1;
+}
+
+.linegraph .domain {
+    display: none;
+}
+
+.linegraph .x_tick {
+    border: none;
+}
+
+.linegraph .tick {
+    stroke: transparent !important;
+}

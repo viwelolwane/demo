@@ -1,0 +1,14 @@
+var dashboard = new Dashboard();
+
+dashboard.addWidget('trello_widget', 'Number', {
+   getData: function () {
+       this.data = {
+           title: 'Trello Dev Cards',
+           more_info: '43 Done',
+           updated_at: 'In the lasts 24 hours',
+           change_rate: '5 inactives',
+           value: '125'
+       };
+       dashboard.publish('trello_widget/render');
+   }
+});
